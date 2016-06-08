@@ -5,14 +5,28 @@ import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.GridView;
+
+import com.monthlywidget.monthlywidget.adapters.widget_controller;
 
 /**
  * Created by Evan Glazer on 6/2/2016.
  */
 public class MonthlyWidget extends AppWidgetProvider {
+
+    widget_controller controller;
+    GridView gridView;
+
     public MonthlyWidget() {
         super();
     }
+
+    public void getData()
+    {
+      
+
+    }
+
 
     @Override
     public void onReceive(Context context, Intent intent) {
